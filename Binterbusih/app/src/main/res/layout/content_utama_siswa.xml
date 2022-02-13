@@ -1,0 +1,289 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gdtegakkiri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".01" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gdtegak05"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".05" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gdtegak15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".15" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gdtegak25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".25" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gdtegak75"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.83" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gdtegak85"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".85" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gdtegak95"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".95" />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gdtegakkanan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".99" />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gddataratas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".01" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gddatar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".1" />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gddatar18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".18" />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gddatar25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".25" />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gddatar32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".32" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gddatar34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".34" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gddatar46"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".46" />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gddatar58"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".58" />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gddatar70"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".70" />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gddatar82"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".82" />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gddatar94"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.92" />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gddatarbawah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".99" />
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="@+id/gddatar32"
+        app:layout_constraintLeft_toLeftOf="@+id/gdtegak05"
+        app:layout_constraintRight_toRightOf="@+id/gdtegak95"
+        app:layout_constraintTop_toTopOf="@+id/gddataratas">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/logo" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lin5ba"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="@+id/gddatar25"
+        app:layout_constraintLeft_toLeftOf="@+id/gdtegak05"
+        app:layout_constraintRight_toRightOf="@+id/gdtegak95"
+        app:layout_constraintTop_toTopOf="@+id/gddatar18">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lin5b"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="@+id/gddatar32"
+        app:layout_constraintLeft_toLeftOf="@+id/gdtegak05"
+        app:layout_constraintRight_toRightOf="@+id/gdtegak95"
+        app:layout_constraintTop_toTopOf="@+id/gddatar25">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lin2bc"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="3dp"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="@+id/gddatar46"
+        app:layout_constraintLeft_toLeftOf="@+id/gdtegak15"
+        app:layout_constraintRight_toRightOf="@+id/gdtegak85"
+        app:layout_constraintTop_toTopOf="@+id/gddatar34">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical">
+
+            <Button
+                android:id="@+id/btninputsemester"
+                style="?android:textAppearanceSmall"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:layout_margin="18dp"
+
+                android:background="@drawable/custombuttonbox"
+                android:fontFamily="sans-serif-medium"
+                android:text="INPUT SEMESTER"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lin2bc"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="3dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        app:layout_constraintBottom_toTopOf="@+id/gddatar58"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="@+id/gdtegak15"
+        app:layout_constraintRight_toRightOf="@+id/gdtegak85"
+        app:layout_constraintTop_toTopOf="@+id/gddatar46">
+
+
+        <LinearLayout
+            android:layout_width="280dp"
+            android:layout_height="47dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical">
+
+            <Button
+                android:id="@+id/btneditprofil"
+                style="?android:textAppearanceSmall"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:layout_margin="18dp"
+
+                android:background="@drawable/custombuttonbox"
+                android:fontFamily="sans-serif-medium"
+                android:text="Edit profil"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+

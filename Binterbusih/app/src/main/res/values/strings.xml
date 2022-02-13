@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Binterbusih</string>
+
+
+    <string-array name="semesterarray">
+        <item>Genap</item>
+        <item>Ganjil</item>
+    </string-array>
+
+    <string-array name="arraykelamin">
+        <item>Laki-Laki</item>
+        <item>Perempuan</item>
+    </string-array>
+
+    <string-array name="tipememberarrays">
+        <item>Pelajar</item>
+        <item>Mahasiswa</item>
+    </string-array>
+
+    <string-array name="agamaarrays">
+        <item>Islam</item>
+        <item>Kristen</item>
+        <item>Katolik</item>
+        <item>Hindu</item>
+        <item>Budha</item>
+        <item>Konghucu</item>
+    </string-array>
+
+    <string-array name="masihhiduprrays">
+        <item>Ya</item>
+        <item>Tidak</item>
+    </string-array>
+
+    <string-array name="bankprrays">
+        <item>BCA</item>
+        <item>BRI</item>
+        <item>BNI</item>
+        <item>Mandiri</item>
+        <item>Lainnya</item>
+    </string-array>
+
+    <string-array name="statuslembagaprrays">
+        <item>Swasta</item>
+        <item>Negeri</item>
+
+    </string-array>
+
+    berupa Swasta dan Negeri.
+    <string-array name="jenjangprrays">
+        <item>D3</item>
+        <item>S1</item>
+        <item>S2</item>
+        <item>S3</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,321 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gdtegakkiri"
+        app:layout_constraintGuide_percent=".01"
+        android:orientation="vertical"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gdtegak05"
+        app:layout_constraintGuide_percent=".05"
+        android:orientation="vertical"/>
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gdtegak15"
+        app:layout_constraintGuide_percent=".15"
+        android:orientation="vertical"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gdtegak25"
+        app:layout_constraintGuide_percent=".25"
+        android:orientation="vertical"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gdtegak75"
+        app:layout_constraintGuide_percent=".75"
+        android:orientation="vertical"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gdtegak85"
+        app:layout_constraintGuide_percent=".85"
+        android:orientation="vertical"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gdtegak95"
+        app:layout_constraintGuide_percent=".95"
+        android:orientation="vertical"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gdtegakkanan"
+        app:layout_constraintGuide_percent=".99"
+        android:orientation="vertical"/>
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gddataratas"
+        app:layout_constraintGuide_percent=".01"
+        android:orientation="horizontal"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gddatar1"
+        app:layout_constraintGuide_percent=".1"
+        android:orientation="horizontal"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gddatar2"
+        app:layout_constraintGuide_percent=".2"
+        android:orientation="horizontal"/>
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gddatar25"
+        app:layout_constraintGuide_percent=".25"
+        android:orientation="horizontal"/>
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gddatar3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.3" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gddatar31"
+        app:layout_constraintGuide_percent=".31"
+        android:orientation="horizontal"/>
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gddatar36"
+        app:layout_constraintGuide_percent=".36"
+        android:orientation="horizontal"/>
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gddatar37"
+        app:layout_constraintGuide_percent=".37"
+        android:orientation="horizontal"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gddatar40"
+        app:layout_constraintGuide_percent=".40"
+        android:orientation="horizontal"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gddatar42"
+        app:layout_constraintGuide_percent=".42"
+        android:orientation="horizontal"/>
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gddatar43"
+        app:layout_constraintGuide_percent=".43"
+        android:orientation="horizontal"/>
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gddatar48"
+        app:layout_constraintGuide_percent=".48"
+        android:orientation="horizontal"/>
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gddatar49"
+        app:layout_constraintGuide_percent=".49"
+        android:orientation="horizontal"/>
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gddatar54"
+        app:layout_constraintGuide_percent=".54"
+        android:orientation="horizontal"/>
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gddatar55"
+        app:layout_constraintGuide_percent=".55"
+        android:orientation="horizontal"/>
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gddatar60"
+        app:layout_constraintGuide_percent=".60"
+        android:orientation="horizontal"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gddatar61"
+        app:layout_constraintGuide_percent=".61"
+        android:orientation="horizontal"/>
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gddatar66"
+        app:layout_constraintGuide_percent=".66"
+        android:orientation="horizontal"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gddatar67"
+        app:layout_constraintGuide_percent=".67"
+        android:orientation="horizontal"/>
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gddatar72"
+        app:layout_constraintGuide_percent=".72"
+        android:orientation="horizontal"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gddatar73"
+        app:layout_constraintGuide_percent=".73"
+        android:orientation="horizontal"/>
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gddatar78"
+        app:layout_constraintGuide_percent=".78"
+        android:orientation="horizontal"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gddatar79"
+        app:layout_constraintGuide_percent=".79"
+        android:orientation="horizontal"/>
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gddatar84"
+        app:layout_constraintGuide_percent=".84"
+        android:orientation="horizontal"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gddatarbawah"
+        app:layout_constraintGuide_percent=".99"
+        android:orientation="horizontal"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        app:layout_constraintLeft_toLeftOf="@+id/gdtegakkiri"
+        app:layout_constraintRight_toRightOf="@+id/gdtegakkanan"
+        app:layout_constraintTop_toTopOf="@+id/gddataratas"
+        app:layout_constraintBottom_toBottomOf="@+id/gddatar1">
+
+
+        <TextView
+            android:id="@+id/tvpelajarmahasiswa"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="DATA ORANG TUA "
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="18dp" />
+
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/lin2bc"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintLeft_toLeftOf="@+id/gdtegakkiri"
+        app:layout_constraintRight_toRightOf="@+id/gdtegakkanan"
+        app:layout_constraintTop_toTopOf="@+id/gddatar1"
+        app:layout_constraintBottom_toBottomOf="@+id/gddatarbawah">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvdata"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/black" />
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+

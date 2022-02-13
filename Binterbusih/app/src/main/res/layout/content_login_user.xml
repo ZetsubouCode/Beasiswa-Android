@@ -1,0 +1,428 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gdtegakkiri"
+        app:layout_constraintGuide_percent=".01"
+        android:orientation="vertical"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gdtegak15"
+        app:layout_constraintGuide_percent=".15"
+        android:orientation="vertical"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gdtegak25"
+        app:layout_constraintGuide_percent=".25"
+        android:orientation="vertical"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gdtegak75"
+        app:layout_constraintGuide_percent=".75"
+        android:orientation="vertical"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gdtegak85"
+        app:layout_constraintGuide_percent=".85"
+        android:orientation="vertical"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gdtegakkanan"
+        app:layout_constraintGuide_percent=".99"
+        android:orientation="vertical"/>
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gddataratas"
+        app:layout_constraintGuide_percent=".01"
+        android:orientation="horizontal"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gddatar05"
+        app:layout_constraintGuide_percent=".05"
+        android:orientation="horizontal"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gddatar15"
+        app:layout_constraintGuide_percent=".15"
+        android:orientation="horizontal"/>
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gddatar2"
+        app:layout_constraintGuide_percent=".2"
+        android:orientation="horizontal"/>
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gddatar25"
+        app:layout_constraintGuide_percent=".25"
+        android:orientation="horizontal"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gddatar26"
+        app:layout_constraintGuide_percent=".26"
+        android:orientation="horizontal"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gddatar31"
+        app:layout_constraintGuide_percent=".31"
+        android:orientation="horizontal"/>
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gddatar32"
+        app:layout_constraintGuide_percent=".32"
+        android:orientation="horizontal"/>
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gddatar37"
+        app:layout_constraintGuide_percent=".37"
+        android:orientation="horizontal"/>
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gddatar38"
+        app:layout_constraintGuide_percent=".38"
+        android:orientation="horizontal"/>
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gddatar43"
+        app:layout_constraintGuide_percent=".43"
+        android:orientation="horizontal"/>
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gddatar44"
+        app:layout_constraintGuide_percent=".44"
+        android:orientation="horizontal"/>
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gddatar49"
+        app:layout_constraintGuide_percent=".49"
+        android:orientation="horizontal"/>
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gddatar50"
+        app:layout_constraintGuide_percent=".50"
+        android:orientation="horizontal"/>
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gddatar55"
+        app:layout_constraintGuide_percent=".55"
+        android:orientation="horizontal"/>
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gddatar56"
+        app:layout_constraintGuide_percent=".56"
+        android:orientation="horizontal"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gddatar61"
+        app:layout_constraintGuide_percent=".61"
+        android:orientation="horizontal"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gddatar62"
+        app:layout_constraintGuide_percent=".62"
+        android:orientation="horizontal"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gddatar67"
+        app:layout_constraintGuide_percent=".67"
+        android:orientation="horizontal"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gddatar68"
+        app:layout_constraintGuide_percent=".68"
+        android:orientation="horizontal"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gddatar69"
+        app:layout_constraintGuide_percent=".69"
+        android:orientation="horizontal"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gddatar76"
+        app:layout_constraintGuide_percent=".76"
+        android:orientation="horizontal"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gddatarbawah"
+        app:layout_constraintGuide_percent=".99"
+        android:orientation="horizontal"/>
+
+
+
+    <LinearLayout
+        android:id="@+id/lin1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="5dp"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        app:layout_constraintLeft_toLeftOf="@+id/gdtegak15"
+        app:layout_constraintRight_toRightOf="@+id/gdtegak85"
+        app:layout_constraintTop_toTopOf="@+id/gddataratas"
+        app:layout_constraintBottom_toBottomOf="@+id/gddatar25">
+
+        <ImageView
+            android:id="@+id/image_logo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:src="@drawable/logo" />
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <LinearLayout
+        android:id="@+id/lin4b"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/customedittext"
+        android:orientation="vertical"
+        android:gravity="center"
+        app:layout_constraintLeft_toLeftOf="@+id/gdtegak15"
+        app:layout_constraintRight_toRightOf="@+id/gdtegak85"
+        app:layout_constraintTop_toTopOf="@+id/gddatar32"
+        app:layout_constraintBottom_toBottomOf="@+id/gddatar37">
+
+
+
+        <EditText
+            android:id="@+id/etemail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:hint="Email"
+            android:imeOptions="actionNext"
+            android:inputType="textEmailAddress"
+            android:maxLines="1"
+            android:textSize="14sp"
+            android:background="@android:color/transparent"
+            android:textColor="@color/blue"
+            android:fontFamily="sans-serif-medium"
+            android:singleLine="true" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/lin5b"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/customedittext"
+        android:orientation="vertical"
+        android:gravity="center"
+        app:layout_constraintLeft_toLeftOf="@+id/gdtegak15"
+        app:layout_constraintRight_toRightOf="@+id/gdtegak85"
+        app:layout_constraintTop_toTopOf="@+id/gddatar38"
+        app:layout_constraintBottom_toBottomOf="@+id/gddatar43">
+
+
+        <EditText
+            android:id="@+id/etpassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:textSize="14sp"
+            android:background="@android:color/transparent"
+            android:textColor="@color/blue"
+            android:fontFamily="sans-serif-medium"
+            android:singleLine="true"
+            />
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+    <LinearLayout
+        android:id="@+id/lin6b"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/custombuttonbox"
+        android:orientation="vertical"
+        android:gravity="center"
+        app:layout_constraintLeft_toLeftOf="@+id/gdtegak15"
+        app:layout_constraintRight_toRightOf="@+id/gdtegak85"
+        app:layout_constraintTop_toTopOf="@+id/gddatar44"
+        app:layout_constraintBottom_toBottomOf="@+id/gddatar49">
+
+        <Button
+            android:id="@+id/btnlogin"
+            style="?android:textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_alignParentBottom="true"
+            android:fontFamily="sans-serif-medium"
+            android:background="@drawable/custombuttonbox"
+
+            android:text="LOGIN"
+            android:layout_margin="10dp"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+<!--        <Button-->
+<!--            android:id="@+id/btntes"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="tes"></Button>-->
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+    <LinearLayout
+        android:id="@+id/lin7b"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+
+        android:orientation="horizontal"
+        app:layout_constraintLeft_toLeftOf="@+id/gdtegak15"
+        app:layout_constraintRight_toRightOf="@+id/gdtegak85"
+        app:layout_constraintTop_toTopOf="@+id/gddatar50"
+        app:layout_constraintBottom_toBottomOf="@+id/gddatar55">
+
+
+        <TextView
+            android:id="@+id/tvregister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:layout_marginTop="8dp"
+            android:textSize="12sp"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="@android:color/holo_blue_dark"
+            android:text="Register"
+            android:layout_weight="1" />
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+

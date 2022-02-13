@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "461410834622",
+    "project_id": "beasiswa-c8050",
+    "storage_bucket": "beasiswa-c8050.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:461410834622:android:024922685c6f9bd4bd66ef",
+        "android_client_info": {
+          "package_name": "com.android.binterbusih"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "461410834622-aqecot9ma6154ivfvut6ths2gc2t0a76.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmM7Ti7vYpKk0xtGaInVQcR0CkG5oqzX0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "461410834622-aqecot9ma6154ivfvut6ths2gc2t0a76.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

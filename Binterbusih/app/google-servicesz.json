@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "621451178012",
+    "project_id": "binterbusih",
+    "storage_bucket": "binterbusih.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:621451178012:android:276aac63dce5b70f016fd9",
+        "android_client_info": {
+          "package_name": "com.android.binterbusih"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "621451178012-ad3vlst3bail3b3e5462fnn8eu3eq274.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.android.binterbusih",
+            "certificate_hash": "23996fbeb6161af56c3d4907570f8d2027d87b4d"
+          }
+        },
+        {
+          "client_id": "621451178012-al7ll577udlakku225n7pptk7r65lskg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbtjvp57FnTZ68CqLhYzAKUOUe39_Zcfg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "621451178012-al7ll577udlakku225n7pptk7r65lskg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
